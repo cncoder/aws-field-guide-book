@@ -2,6 +2,8 @@
 
 解决项目上线时 Nginx 代理 AWS ALB 可能遇到的连接问题和配置优化方案。
 
+[English Version](alb-nginx-proxy-best-practices-en.md)
+
 ## 📋 问题背景
 
 在项目上线过程中，当使用 Nginx 作为反向代理来转发请求到 AWS ALB 时，可能会遇到以下现象：
