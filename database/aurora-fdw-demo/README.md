@@ -16,7 +16,7 @@ This solution demonstrates how to implement real-time cross-database JOIN querie
 
 ## 📖 Documentation Reference
 
-This solution is based on AWS official documentation:
+This solution is based on AWS documentation and PostgreSQL resources:
 - **AWS Aurora PostgreSQL FDW Guide**: [Using postgres_fdw with Aurora PostgreSQL](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/postgresql-commondbatasks-fdw.html)
 - **PostgreSQL FDW Documentation**: [postgres_fdw Extension](https://www.postgresql.org/docs/current/postgres-fdw.html)
 

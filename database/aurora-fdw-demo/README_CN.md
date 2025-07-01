@@ -16,7 +16,7 @@
 
 ## 📖 文档参考
 
-本解决方案基于AWS官方文档：
+本解决方案基于AWS文档和PostgreSQL资源：
 - **AWS Aurora PostgreSQL FDW指南**: [在Aurora PostgreSQL中使用postgres_fdw](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/postgresql-commondbatasks-fdw.html)
 - **PostgreSQL FDW文档**: [postgres_fdw扩展](https://www.postgresql.org/docs/current/postgres-fdw.html)
 

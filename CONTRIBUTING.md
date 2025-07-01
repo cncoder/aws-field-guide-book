@@ -2,6 +2,8 @@
 
 Thank you for your interest in contributing! This guide is built by practitioners, for practitioners.
 
+> **⚠️ Important**: This is an independent community project. Contributors should not claim official AWS endorsement or represent AWS positions. All content should be clearly marked as community-contributed solutions and personal experiences.
+
 ## How to Contribute
 
 ### 1. Share Your Field Experience

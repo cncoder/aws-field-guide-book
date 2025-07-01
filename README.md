@@ -2,6 +2,8 @@
 
 A comprehensive guide to AWS architecture patterns and solutions, based on production experience and best practices.
 
+> **⚠️ Disclaimer**: This is an independent, community-driven project and is not affiliated with, endorsed by, or sponsored by Amazon Web Services (AWS) or Amazon.com, Inc. All AWS service names, trademarks, and logos are property of Amazon.com, Inc. or its affiliates.
+
 [中文版本](README_CN.md)
 
 ## 🏗️ What's Inside

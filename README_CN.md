@@ -2,6 +2,8 @@
 
 基于生产环境经验和最佳实践的AWS架构模式与解决方案综合指南。
 
+> **⚠️ 免责声明**: 这是一个独立的社区驱动项目，与Amazon Web Services (AWS) 或 Amazon.com, Inc. 没有任何关联、认可或赞助关系。所有AWS服务名称、商标和标识均为Amazon.com, Inc. 或其关联公司的财产。
+
 [English Version](README.md)
 
 ## 🏗️ 内容结构
