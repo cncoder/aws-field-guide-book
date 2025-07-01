@@ -81,7 +81,7 @@
 
 ### 1. 克隆和配置
 ```bash
-git clone <repository-url>
+git clone https://github.com/cncoder/aws-field-guide-book.git
 cd aws-field-guide-book/database/aurora-fdw-demo
 ```
 
