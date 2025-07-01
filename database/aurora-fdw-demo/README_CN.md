@@ -200,9 +200,9 @@ SELECT * FROM pg_user_mappings;
 SELECT * FROM pg_stat_activity WHERE application_name LIKE '%fdw%';
 ```
 
-## 🎓 经验总结
+## 🎓 生产环境实战经验
 
-### 生产环境洞察
+### 生产环境实践要点
 - **索引策略**: 在远程数据库的外键列上创建索引
 - **连接限制**: 监控和调优目标数据库的max_connections
 - **查询模式**: 避免跨数据库边界的SELECT *查询

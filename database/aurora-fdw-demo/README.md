@@ -200,7 +200,7 @@ SELECT * FROM pg_user_mappings;
 SELECT * FROM pg_stat_activity WHERE application_name LIKE '%fdw%';
 ```
 
-## 🎓 Lessons Learned
+## 🎓 Production Insights
 
 ### Production Insights
 - **Index Strategy**: Create indexes on foreign key columns in remote databases
