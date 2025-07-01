@@ -1,6 +1,6 @@
 # AWS Field Guide Book
 
-A practical collection of AWS architecture solutions, battle-tested patterns, and real-world implementations from the field.
+A comprehensive guide to AWS architecture patterns and solutions, based on production experience and best practices.
 
 [中文版本](README_CN.md)
 
@@ -21,11 +21,11 @@ aws-field-guide-book/
 └── docs/                   # Documentation and guides
 ```
 
-## 🎯 Field-Tested Solutions
+## 🎯 Production-Validated Solutions
 
-This guide contains real-world AWS solutions that have been implemented and validated in production environments:
+This guide contains AWS solutions that have been implemented and validated in production environments:
 
-- **Production-Ready Architectures**: Battle-tested designs from actual customer implementations
+- **Production-Ready Architectures**: Proven designs from actual customer implementations
 - **Cost Optimization Strategies**: Practical approaches to reduce your AWS spending
 - **Security-First Designs**: Security patterns that meet enterprise requirements
 - **High-Performance Architectures**: Designs that scale with your business growth
@@ -49,7 +49,7 @@ Each solution includes:
 
 ## 🤝 Contributing
 
-This is a living document. Contributions from fellow practitioners are welcome!
+We welcome contributions from the AWS community. Feel free to submit improvements, corrections, or new solutions!
 
 ## 📄 License
 
