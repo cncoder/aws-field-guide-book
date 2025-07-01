@@ -55,7 +55,7 @@ This solution is based on AWS official documentation:
 ## ✨ Features & Benefits
 
 ### 🚀 Performance
-- **Sub-10ms Latency**: VPC-native networking for minimal query overhead
+- **Low-Latency Networking**: VPC-native networking for optimized query performance
 - **Read/Write Separation**: Analytics queries don't impact transactional workloads
 - **Connection Pooling**: Automatic connection management via postgres_fdw
 - **Query Optimization**: Pushdown predicates to remote databases

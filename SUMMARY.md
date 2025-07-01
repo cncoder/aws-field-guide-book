@@ -10,6 +10,7 @@
 * [Networking](networking/README.md)
 * [Database](database/README.md)
   * [Aurora PostgreSQL Cross-Database Queries](database/aurora-fdw-demo/README.md)
+  * [Quick Start Guide](database/aurora-fdw-demo/QUICK_START.md)
 * [Security](security/README.md)
 * [Serverless](serverless/README.md)
 * [Containers](containers/README.md)
