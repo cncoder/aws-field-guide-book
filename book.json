@@ -1,0 +1,26 @@
+{
+  "title": "AWS Field Guide Book",
+  "description": "A practical collection of AWS architecture solutions from the field",
+  "author": "AWS Solutions Architect",
+  "language": "en",
+  "gitbook": "3.2.3",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "github",
+    "anchors",
+    "include-codeblock",
+    "ace",
+    "emphasize",
+    "mermaid-gb3",
+    "expandable-chapters-small",
+    "anchor-navigation-ex"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/your-username/aws-field-guide-book"
+    }
+  }
+}

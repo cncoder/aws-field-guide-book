@@ -1,0 +1,40 @@
+# AWS Credentials
+.aws/
+*.pem
+*.key
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Node modules (GitBook)
+node_modules/
+_book/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Sensitive data
+secrets/
+private/
