@@ -1,0 +1,41 @@
+# Copy this file to terraform.tfvars and update with your values
+
+# AWS Region
+aws_region = "ap-southeast-1"
+
+# Network Configuration
+# Replace with your VPC ID
+vpc_id = "vpc-xxxxxxxxxxxxxxxxx"
+
+# Replace with your private subnet IDs (minimum 2 in different AZs)
+private_subnet_ids = [
+  "subnet-xxxxxxxxxxxxxxxxx",  # Private subnet in AZ-a
+  "subnet-xxxxxxxxxxxxxxxxx"   # Private subnet in AZ-b
+]
+
+# Database Configuration
+db_master_username = "postgres"
+# Set a strong password (minimum 8 characters)
+db_master_password = "YourSecurePassword123!"
+
+# Instance Configuration
+db_instance_class = "db.r6g.large"
+
+# Project Configuration
+project_name = "aurora-fdw-demo"
+
+# Optional: CIDR blocks allowed to access Aurora (defaults to VPC CIDR)
+# allowed_cidr_blocks = ["10.0.0.0/16"]
+
+# Optional: Enable Performance Insights
+# enable_performance_insights = true
+
+# Optional: Backup retention period (1-35 days)
+# backup_retention_period = 7
+
+# Optional: Additional tags
+# tags = {
+#   Environment = "demo"
+#   Team        = "data-engineering"
+#   CostCenter  = "engineering"
+# }
