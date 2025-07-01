@@ -20,7 +20,7 @@
   ],
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/your-username/aws-field-guide-book"
+      "url": "https://github.com/cncoder/aws-field-guide-book"
     }
   }
 }
