@@ -1,0 +1,37 @@
+name: Build and Deploy GitBook
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install GitBook CLI
+      run: npm install -g gitbook-cli
+      
+    - name: Install GitBook plugins
+      run: gitbook install
+      
+    - name: Build GitBook
+      run: gitbook build . _book
+      
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_book
+        cname: aws-field-guide.your-domain.com  # Optional: replace with your domain

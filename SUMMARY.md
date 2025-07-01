@@ -9,6 +9,7 @@
 * [Storage](storage/README.md)
 * [Networking](networking/README.md)
 * [Database](database/README.md)
+  * [Aurora PostgreSQL Cross-Database Queries](database/aurora-fdw-demo/README.md)
 * [Security](security/README.md)
 * [Serverless](serverless/README.md)
 * [Containers](containers/README.md)
