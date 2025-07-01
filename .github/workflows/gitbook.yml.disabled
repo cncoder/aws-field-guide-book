@@ -17,21 +17,27 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '16'  # Use Node.js 16 for GitBook CLI compatibility
+        
+    - name: Fix graceful-fs issue
+      run: |
+        npm install -g graceful-fs@4.2.10
         
     - name: Install GitBook CLI
-      run: npm install -g gitbook-cli
-      
-    - name: Install GitBook plugins
-      run: gitbook install
-      
+      run: |
+        npm install -g gitbook-cli@2.3.2
+        
+    - name: Install GitBook and plugins
+      run: |
+        gitbook install
+        
     - name: Build GitBook
-      run: gitbook build . _book
-      
+      run: |
+        gitbook build . _book
+        
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_book
-        cname: aws-field-guide.your-domain.com  # Optional: replace with your domain
