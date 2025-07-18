@@ -8,8 +8,8 @@
 
 ```bash
 # 克隆项目
-git clone <repository-url>
-cd msk-python-client-demo
+git clone https://github.com/cncoder/aws-field-guide-book.git
+cd aws-field-guide-book/analytics/msk-python-client-demo
 
 # 配置Terraform变量
 cp terraform/terraform.tfvars.template terraform/terraform.tfvars
@@ -25,8 +25,8 @@ vim terraform/terraform.tfvars  # 填入您的实际值
 
 ```bash
 # 克隆项目
-git clone <repository-url>
-cd msk-python-client-demo
+git clone https://github.com/cncoder/aws-field-guide-book.git
+cd aws-field-guide-book/analytics/msk-python-client-demo
 
 # 安装依赖
 pip3 install -r requirements.txt

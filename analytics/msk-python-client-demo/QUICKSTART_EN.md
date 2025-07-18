@@ -8,8 +8,8 @@ The simplest deployment method:
 
 ```bash
 # Clone the project
-git clone <repository-url>
-cd msk-python-client-demo
+git clone https://github.com/cncoder/aws-field-guide-book.git
+cd aws-field-guide-book/analytics/msk-python-client-demo
 
 # Configure Terraform variables
 cp terraform/terraform.tfvars.template terraform/terraform.tfvars
@@ -25,8 +25,8 @@ vim terraform/terraform.tfvars  # Fill in your actual values
 
 ```bash
 # Clone the project
-git clone <repository-url>
-cd msk-python-client-demo
+git clone https://github.com/cncoder/aws-field-guide-book.git
+cd aws-field-guide-book/analytics/msk-python-client-demo
 
 # Install dependencies
 pip3 install -r requirements.txt
