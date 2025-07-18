@@ -22,6 +22,9 @@
   * [AWS MSK Python Client Demo](analytics/msk-python-client-demo/README.md)
     * [Quick Start Guide](analytics/msk-python-client-demo/QUICKSTART.md)
     * [Project Summary](analytics/msk-python-client-demo/PROJECT_SUMMARY.md)
+    * [English Documentation](analytics/msk-python-client-demo/README_EN.md)
+    * [Quick Start Guide (EN)](analytics/msk-python-client-demo/QUICKSTART_EN.md)
+    * [Project Summary (EN)](analytics/msk-python-client-demo/PROJECT_SUMMARY_EN.md)
 
 ## Resources
 

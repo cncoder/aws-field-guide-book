@@ -4,6 +4,8 @@
 > 
 > 📚 **快速开始**: 请参阅 [QUICKSTART.md](QUICKSTART.md) 快速部署和测试。
 > 
+> 🌐 **English Version**: [README_EN.md](README_EN.md) | [QUICKSTART_EN.md](QUICKSTART_EN.md) | [PROJECT_SUMMARY_EN.md](PROJECT_SUMMARY_EN.md)
+> 
 > ⚠️ **注意**: 使用前请复制配置模板文件并填入您的实际AWS资源信息。
 
 

@@ -1,5 +1,7 @@
 # 项目开源化总结
 
+> 🌐 **English Version**: [PROJECT_SUMMARY_EN.md](PROJECT_SUMMARY_EN.md)
+
 ## 🎯 项目概述
 
 本项目是一个完整的AWS MSK (Managed Streaming for Apache Kafka) Python客户端连接演示，支持两种主要认证方式：

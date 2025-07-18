@@ -1,5 +1,7 @@
 # AWS MSK Python 客户端 - 快速开始
 
+> 🌐 **English Version**: [QUICKSTART_EN.md](QUICKSTART_EN.md)
+
 ## 🚀 一键部署（推荐）
 
 最简单的部署方式：
