@@ -19,6 +19,9 @@
 * [Serverless](serverless/README.md)
 * [Containers](containers/README.md)
 * [Analytics](analytics/README.md)
+  * [AWS MSK Python Client Demo](analytics/msk-python-client-demo/README.md)
+    * [Quick Start Guide](analytics/msk-python-client-demo/QUICKSTART.md)
+    * [Project Summary](analytics/msk-python-client-demo/PROJECT_SUMMARY.md)
 
 ## Resources
 

@@ -1,0 +1,15 @@
+# AWS MSK Python 客户端依赖包
+
+# 核心 Kafka 客户端库
+confluent-kafka==1.9.2
+
+# AWS SDK
+boto3>=1.28.0
+botocore>=1.31.0
+
+# MSK IAM 认证库 (需要 Python 3.8+)
+aws-msk-iam-sasl-signer-python>=1.0.2
+
+# HTTP 请求库
+requests>=2.25.0
+urllib3<2.0

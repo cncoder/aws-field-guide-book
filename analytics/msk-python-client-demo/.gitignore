@@ -1,0 +1,64 @@
+# 敏感配置文件
+msk_config.env
+terraform.tfvars
+
+# 安全校验文件（内部使用）
+security_check.sh
+VALIDATION_REPORT.md
+CLEANUP_SUMMARY.md
+terraform_outputs.json
+
+# Terraform 文件
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate*
+terraform/*.tfplan
+
+# Python 文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# macOS 文件
+.DS_Store
+
+# AWS 凭据
+.aws/
+credentials

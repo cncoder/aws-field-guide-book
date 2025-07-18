@@ -1,0 +1,26 @@
+# Terraform 变量配置模板
+# 复制此文件为 terraform.tfvars 并填入您的实际值
+
+# AWS 区域
+aws_region = "ap-southeast-1"
+
+# 项目标签
+project_name = "msk-poc"
+environment  = "demo"
+
+# 网络配置
+vpc_cidr             = "10.50.0.0/16"
+private_subnet_cidrs = ["10.50.128.0/20", "10.50.144.0/20"]
+availability_zones   = ["ap-southeast-1a", "ap-southeast-1b"]
+
+# MSK 配置
+kafka_version    = "2.8.1"
+instance_type    = "kafka.t3.small"
+ebs_volume_size  = 100
+
+# EC2 配置
+ec2_instance_type = "t3.micro"
+ec2_key_name      = "your-key-pair-name"  # 可选，如果不使用SSH
+
+# SCRAM 用户配置
+scram_username = "msk_user"
